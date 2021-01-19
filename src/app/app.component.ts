@@ -65,7 +65,7 @@ export class AppComponent {
     this.actual = new Empleado(this.trabajadores[indice].nombre,
       this.trabajadores[indice].apellido,
       this.trabajadores[indice].documento,
-      this.trabajadores[indice].numero;
+      this.trabajadores[indice].numero,
       this.trabajadores[indice].estado,
       this.trabajadores[indice].correo,
       this.trabajadores[indice].celular,
